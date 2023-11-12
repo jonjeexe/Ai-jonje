@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!-- Coding by CodingNepal || www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Boxicons CSS -->
+    <link rel="stylesheet" href="static/css/chat.css">
+    <link rel="stylesheet" href="static/css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <title>Side Navigation Bar in HTML CSS JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="logo_item">
+        <i class="bx bx-menu" id="sidebarOpen"></i>
+        <img src="logo.png" alt=""></i>Jonje.exe
+      </div>
+
+      <div class="search_bar">
+        <input type="text" placeholder="#" />
+      </div>
+
+      <div class="navbar_content">
+      <i class="bi bi-grid"></i>
+      <i class='#' id="darkLight"></i>
+      <i class='#' ></i>
+      <a href="BidhyaId.html">
+      <img src="Bidhya.png" alt="" class="profile" />
+      </a>
+      </div>
+    </nav>
+
+    <!-- sidebar -->
+    <nav class="sidebar">
+      <div class="menu_content">
+        <ul class="menu_items">
+          <div class="menu_title menu_dahsboard"></div>
+          <!-- duplicate or remove this li tag if you want to add or remove navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="bx bx-home-alt"></i>
+              </span>
+              <span class="navlink">Home</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+            </ul>
+          </li>
+          <!-- end -->
+
+          <!-- duplicate this li tag if you want to add or remove  navlink with submenu -->
+          <!-- start -->
+          <li class="item">
+            <div href="#" class="nav_link submenu_item">
+              <span class="navlink_icon">
+                <i class="bx bx-grid-alt"></i>
+              </span>
+              <span class="navlink">Overview</span>
+              <i class="bx bx-chevron-right arrow-left"></i>
+            </div>
+
+            <ul class="menu_items submenu">
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+              <a href="#" class="nav_link sublink">Nav Sub Link</a>
+            </ul>
+          </li>
+          <!-- end -->
+        </ul>
+
+        <li class="item">
+        <a href="#" class="nav_link">
+        <span class="navlink_icon">
+        <i class="bx bx-layer"></i>
+        </span>
+        <span class="navlink">Features</span>
+        </a>
+        </li>
+        </ul>
+
+        <!-- Sidebar Open / Close -->
+        <div class="bottom_content">
+          <div class="bottom expand_sidebar">
+            <span> Expand</span>
+            <i class='bx bx-log-in' ></i>
+          </div>
+          <div class="bottom collapse_sidebar">
+            <span> Collapse</span>
+            <i class='bx bx-log-out'></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </body>
+    
+    <h1> •</h1><BR>
+    <center><img src="l.jpg" alt="Jonje" width="200" height="200"></center>
+    <h2> THERE SOME FEATURES YOU CAN'T  ACCESS BY JONJE </h2>
+    
+    
+    
+    
+    <body>
+    <!-- CHAT BAR BLOCK -->
+    <div class="chat-bar-collapsible">
+    <button id="chat-button" type="button" class="collapsible">CHAT WITH JONJE AI
+    <i id="chat-icon" style="color: #fff;" class="fa fa-fw fa-comments-o"></i>
+    </button>
+    
+    <div class="content">
+    <div class="full-chat-block">
+    <!-- Message Container -->
+    <div class="outer-container">
+    <div class="chat-container">
+    <!-- Messages -->
+    <div id="chatbox">
+    <h5 id="chat-timestamp"></h5>
+    <p id="botStarterMessage" class="botText"><span>Loading...</span></p>
+    </div>
+    
+    <!-- User input box -->
+    <div class="chat-bar-input-block">
+    <div id="userInput">
+    <input id="textInput" class="input-box" type="text" name="msg"
+    placeholder=" Send a message">
+    <p></p>
+    </div>
+    
+    <div class="chat-bar-icons">
+    <i id="chat-icon" style="color: crimson;" class="fa fa-fw fa-heart"
+    onclick="heartButton()"></i>
+    <i id="chat-icon" style="color: #333;" class="fa fa-fw fa-send"
+    onclick="sendButton()"></i>
+    </div>
+    </div>
+    
+    <div id="chat-bar-bottom">
+    <p></p>
+    </div>
+    
+    </div>
+    </div>
+    
+    </div>
+    </div>
+    
+    </div>
+    
+    </body>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
+    <script src="script.js"></script>
+  </body>
+</html>
